@@ -3,9 +3,11 @@
 </script>
 
 <header
-	class="flex px-4 items-center h-[64px] py-2 bg-white z-10 justify-between sticky top-0 left-0"
+	class="flex px-4 border items-center h-[64px] py-2 bg-white z-10 justify-between sticky top-0 left-0"
 >
-	<img src="/icons/ytLogo.svg" class="md:hidden mr-5" alt="youtube logo" />
+	<a href="/" class="md:hidden mr-5">
+		<img src="/icons/ytLogo.svg" class="md:hidden mr-5" alt="youtube logo" />
+	</a>
 	<div class="md:flex hidden gap-4 items-center">
 		<img
 			src="/icons/bugerIcon.svg"
